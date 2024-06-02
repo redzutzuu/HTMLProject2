@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <h1 style="text-align: center">Componente PC</h1>
+
+  <head>
+    <title id="title">Componente PC</title>
+    <link rel="stylesheet" type="text/css" href="stil.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="/">Acasă</a>
+        <a href="/chestionar">Chestionar</a>
+        <% if(utilizator !=null) { %>
+        <a href="/autentificare">Delogare</a>
+
+        <% } else if (utilizator==null) { %>
+        <a href="/autentificare">Autentificare</a>
+        <% }%>
+      </nav>
+      <% if(utilizator !=null) { %>
+      <h1>Bine ai venit, <%= utilizator['utilizator'] %>!</h1>
+      <% }%>
+    </header>
+
+    <main><%- body -%></main>
+  </body>
+</html>

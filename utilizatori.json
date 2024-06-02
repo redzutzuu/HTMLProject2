@@ -1,0 +1,34 @@
+{
+  "utilizatori": [
+    {
+      "utilizator": "alex",
+      "parola": "alex",
+      "rol": "ADMIN"
+    },
+    {
+      "utilizator": "jane_smith",
+      "parola": "jane2021",
+      "rol": "USER"
+    },
+    {
+      "utilizator": "michael_brown",
+      "parola": "michael789",
+      "rol": "USER"
+    },
+    {
+      "utilizator": "emily_davis",
+      "parola": "emily456",
+      "rol": "ADMIN"
+    },
+    {
+      "utilizator": "william_jones",
+      "parola": "william123",
+      "rol": "USER"
+    },
+    {
+      "utilizator": "olivia_wilson",
+      "parola": "olivia2022",
+      "rol": "ADMIN"
+    }
+  ]
+}

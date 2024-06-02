@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="/admin.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Panou de administrare</h1>
+        <nav>
+          <ul>
+            <li><a href="/">Acasă</a></li>
+            <li><a href="/autentificare">Delogare</a></li>
+          </ul>
+        </nav>
+        <form action="/adauga-produs" method="POST">
+          <h2>Adaugă un produs nou</h2>
+          <label for="nume">Nume produs:</label>
+          <input type="text" id="nume" name="nume" required />
+
+          <label for="pret">Preț produs:</label>
+          <input type="number" id="pret" name="pret" step="0.01" required />
+
+          <label for="src_img">URL Imagine produs:</label>
+          <input type="url" id="src_img" name="src_img" required />
+
+          <input type="submit" value="Adaugă produs" />
+        </form>
+      </div>
+    </header>
+    <div class="container">
+      <!-- Other content can go here if needed -->
+    </div>
+  </body>
+</html>

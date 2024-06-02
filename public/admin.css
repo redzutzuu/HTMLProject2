@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 10px;
+  min-height: 100px; /* Adjusted height */
+  border-bottom: #77aaff 3px solid;
+  margin-bottom: -20px; /* Adjusted margin */
+}
+
+header a {
+  color: #c51b1b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0;
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+  color: #77aaff;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #77aaff;
+  font-weight: bold;
+}
+
+header form {
+  background: #444;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+header form h2 {
+  color: #fff;
+}
+
+header form input[type="text"],
+header form input[type="number"],
+header form input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+header form input[type="submit"] {
+  background: #77aaff;
+  color: #fff;
+  padding: 10px 20px; /* Adjusted padding */
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px; /* Added margin */
+  display: block; /* Ensures each button is on its own line */
+}
+
+header form input[type="submit"]:hover {
+  background: #555;
+}
